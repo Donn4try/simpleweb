@@ -57,9 +57,8 @@ header {
 }
 .input-box label {
   position:absolute; top:50%; left:35px; transform:translateY(-50%);
-  background:#000; padding:0 5px; transition:.3s;
-  pointer-events:none;
-  color:#fff;
+  padding:0 5px; transition:.3s;
+  pointer-events:none; color:#fff;
 }
 .input-box input:focus + label,
 .input-box input:valid + label {
